@@ -1,1 +1,5 @@
 server.port: ${PORT:8010}
+
+turbine:
+  appConfig: web-service,book-service
+  clusterNameExpression: 'default'
