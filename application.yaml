@@ -2,3 +2,7 @@ spring:
   jackson:
     dateFormat: com.fasterxml.jackson.databind.util.ISO8601DateFormat
     time-zone: UTC
+
+eureka:
+  instance:
+    prefer-ip-address: true
