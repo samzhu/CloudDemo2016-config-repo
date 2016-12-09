@@ -1,5 +1,3 @@
-server.port: ${PORT:8080}
-
 spring:
   jackson:
     dateFormat: com.fasterxml.jackson.databind.util.ISO8601DateFormat
