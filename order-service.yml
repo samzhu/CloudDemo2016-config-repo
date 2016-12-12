@@ -1,1 +1,3 @@
 server.port: ${PORT:8686}
+
+item-service.ribbon.MaxAutoRetries: 2
