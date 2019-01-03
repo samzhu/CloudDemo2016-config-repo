@@ -9,5 +9,5 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     testWhileIdle: true
     validationQuery: SELECT 1
-  jpa.show-sql: false
+  jpa.show-sql: true
   jpa.properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
